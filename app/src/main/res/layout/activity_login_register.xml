@@ -23,6 +23,7 @@
             android:layout_marginRight="2sp"
             android:layout_marginBottom="5sp"
             android:text="@string/register"
+            android:onClick="openRegister"
             app:backgroundTint="#673AB7"
             android:layout_marginStart="5sp"
             android:layout_marginEnd="2sp" />
@@ -35,6 +36,7 @@
             android:layout_marginTop="0sp"
             android:layout_marginRight="5sp"
             android:layout_marginBottom="5sp"
+            android:onClick="openLogin"
             android:text="@string/login"
             android:layout_marginStart="2sp"
             android:layout_marginEnd="5sp" />
