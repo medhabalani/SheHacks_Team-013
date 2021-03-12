@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Peacify</string>
+    <string name="p_e_a_c_i_f_y">P.E.A.C.I.F.Y</string>
+    <string name="we_are_there_for_you">we_are_there_for_you</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
 </resources>

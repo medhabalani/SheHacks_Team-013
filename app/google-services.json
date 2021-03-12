@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175578411116",
+    "project_id": "peacify-d677e",
+    "storage_bucket": "peacify-d677e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175578411116:android:62b2d7e6ef543db5162849",
+        "android_client_info": {
+          "package_name": "com.example.peacify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175578411116-3m1j7oqj3rpun9l73ch93jhd6ebtd0vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWzTOLMuVroXWDLaHdb5BI_CMaqUHT0WA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175578411116-3m1j7oqj3rpun9l73ch93jhd6ebtd0vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

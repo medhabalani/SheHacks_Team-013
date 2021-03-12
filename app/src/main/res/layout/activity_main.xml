@@ -87,7 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:fontFamily="cursive"
-            android:text="P.E.A.C.I.F.Y"
+            android:text="@string/p_e_a_c_i_f_y"
             android:textColor="#fff"
             android:textSize="80sp"/>
     </RelativeLayout>
@@ -115,7 +115,7 @@
                 android:layout_marginBottom="50dp"
                 android:fontFamily="cursive"
                 android:shadowColor="#B8B8B8"
-                android:text="we_are_there_for_you"
+                android:text="@string/we_are_there_for_you"
                 android:textColor="#8A8787"
                 android:textSize="24sp" />
 
