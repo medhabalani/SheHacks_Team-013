@@ -53,7 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="32dp"
-                android:text="Register"
+                android:onClick="openRegister"
+                android:text="@string/register"
                 app:backgroundTint="#CA4DDF"
                 app:cornerRadius="4dp" />
 
@@ -63,8 +64,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="8dp"
+                android:onClick="openLogin"
                 app:backgroundTint="#CA4DDF"
-                android:text="Login"
+                android:text="@string/login"
                 app:cornerRadius="4dp" />
         </LinearLayout>
 

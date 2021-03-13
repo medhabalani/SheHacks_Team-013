@@ -44,7 +44,6 @@
             android:layout_height="160dp"
             android:layout_marginTop="25dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/msg"
             app:layout_constraintTop_toBottomOf="@+id/toolbar"
             android:src="@drawable/icon2"
             android:contentDescription="@string/start_a_new_day" />
@@ -317,7 +316,7 @@
             android:id="@+id/helpbtn"
             android:layout_width="99dp"
             android:layout_height="42dp"
-            android:text="LOGOUT"
+            android:text="@string/logout"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

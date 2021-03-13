@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 // else go to login page
                 Intent intent = new Intent(MainActivity.this, login_register.class);
                 startActivity(intent);
+                finish();
             }
         }, SPLASH_TIME_OUT);
 //

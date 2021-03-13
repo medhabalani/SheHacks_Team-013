@@ -2,7 +2,6 @@
 
 
     <string name="app_name">PEACIFY</string>
-    <string name="register">Register</string>
     <string name="create_new_account">Create new account</string>
     <string name="full_name">Full Name</string>
     <string name="welcome_back">Welcome Back!</string>
@@ -11,7 +10,6 @@
     <string name="enter">Enter</string>
     <string name="give_me_a_quote">GIVE ME A QUOTE</string>
     <string name="hey_beautiful">HEY BEAUTIFUL</string>
-    <string name="login">Login</string>
     <string name="phone">Phone</string>
     <string name="share_app">Share App</string>
     <string name="check_others">Meditate</string>
@@ -44,4 +42,6 @@
     <string name="peace">peace</string>
     <string name="connect">Connect</string>
     <string name="mood_records">Mood Records</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
 </resources>

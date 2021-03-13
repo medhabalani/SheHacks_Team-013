@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E5B3ED"
+    android:background="@drawable/loginregsiter"
     tools:context=".Register">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
-        android:text="Create new account"
+        android:text="@string/create_new_account"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,7 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:fontFamily="sans-serif-light"
-        android:hint="Full Name"
+        android:hint="@string/full_name"
         android:inputType="textPersonName"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:fontFamily="sans-serif-light"
-        android:hint="Email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +60,7 @@
         android:background="#FFFFFF"
         android:ems="10"
         android:fontFamily="sans-serif-light"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,7 +75,7 @@
         android:background="#FFFEFE"
         android:ems="10"
         android:fontFamily="sans-serif-light"
-        android:hint="Phone"
+        android:hint="@string/phone"
         android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,10 +87,11 @@
 
     <Button
         android:id="@+id/registerbtn"
-        android:layout_width="350dp"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
         android:layout_height="55dp"
         android:layout_marginTop="44dp"
-        android:text="Register"
+        android:text="@string/register"
         android:textSize="20sp"
         app:backgroundTint="#CA4DDF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,4 +110,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registerbtn"
         app:layout_constraintVertical_bias="0.241" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

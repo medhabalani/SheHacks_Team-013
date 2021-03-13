@@ -16,26 +16,30 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class Register extends AppCompatActivity {
+
     EditText rfullname,remail,rpassword,rphone;
     Button rregisterbtn;
     FirebaseAuth fAuth;
     ProgressBar progressBar;
+    FirebaseFirestore fStore;
+    String userID;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        EditText rfullname,remail,rpassword,rphone;
-        Button rregisterbtn;
-        FirebaseAuth fAuth;
-        ProgressBar progressBar;
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
         rfullname=findViewById(R.id.fullname);
         remail=findViewById(R.id.email);
         rpassword=findViewById(R.id.password);
         rphone=findViewById(R.id.phone);
         rregisterbtn=findViewById(R.id.registerbtn);
         fAuth=FirebaseAuth.getInstance();
+        fStore=FirebaseFirestore.getInstance();
         progressBar=findViewById(R.id.progressBar);
 
         if(fAuth.getCurrentUser() != null){

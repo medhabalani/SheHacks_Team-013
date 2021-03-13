@@ -3,6 +3,7 @@ package com.example.peacify;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -53,7 +54,9 @@ public class login extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Toast.makeText(login.this, "Logged in successfully", Toast.LENGTH_SHORT).show();
+                            Intent intent=new Intent(login.this, dashboard.class);
+                            finish();
+                            startActivity(intent);
                         }
                         else{
                             Toast.makeText(login.this, "Error: "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
