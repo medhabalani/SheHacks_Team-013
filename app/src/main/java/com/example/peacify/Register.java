@@ -16,7 +16,11 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
 
 public class Register extends AppCompatActivity {
 
@@ -42,6 +46,7 @@ public class Register extends AppCompatActivity {
         fStore=FirebaseFirestore.getInstance();
         progressBar=findViewById(R.id.progressBar);
 
+
         if(fAuth.getCurrentUser() != null){
             startActivity(new Intent(getApplicationContext(),login.class));
             finish();
@@ -51,6 +56,8 @@ public class Register extends AppCompatActivity {
             public void onClick(View v) {
                 String email=remail.getText().toString().trim();
                 String pass=rpassword.getText().toString().trim();
+                String fullname=rfullname.getText().toString();
+                String phone=rphone.getText().toString();
                 if(TextUtils.isEmpty(email)){
                     remail.setError("Email is required.");
                     return;
@@ -79,6 +86,7 @@ public class Register extends AppCompatActivity {
                 });
             }
         });
+
 
     }
 }
