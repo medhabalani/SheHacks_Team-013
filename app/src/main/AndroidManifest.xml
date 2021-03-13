@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Peacify">
-        <activity android:name=".Connect"></activity>
+        <activity android:name=".Connect" />
         <activity android:name=".moodrecords" />
         <activity
             android:name=".meditate"

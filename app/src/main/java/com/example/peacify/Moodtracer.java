@@ -4,10 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
@@ -69,7 +67,7 @@ public class Moodtracer extends AppCompatActivity {
         fStore=FirebaseFirestore.getInstance();
 
         save = findViewById(R.id.saveBtn);
-        btn = findViewById(R.id.suggestions);
+        btn = findViewById(R.id.suggestionsbtn);
         mood = findViewById(R.id.moodDisplay);
         description = findViewById(R.id.description);
         logout = findViewById(R.id.buttonx);
@@ -102,7 +100,7 @@ public class Moodtracer extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //call for suggestions
+                        //startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
                     }
                 });
             }
@@ -140,7 +138,7 @@ public class Moodtracer extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //call for suggestions
+                        //startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
                     }
                 });
             }
@@ -169,7 +167,7 @@ public class Moodtracer extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //call for suggestions
+                        //startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
                     }
                 });
 
