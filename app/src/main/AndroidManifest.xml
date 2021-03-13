@@ -11,8 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Peacify">
-        <activity android:name=".quotepage"/>
-        <activity android:name=".dashboard"/>
+        <activity android:name=".Moodtracer" />
+        <activity android:name=".quotepage" />
+        <activity android:name=".dashboard" />
         <activity android:name=".login" />
         <activity android:name=".Register" />
         <activity android:name=".login_register" />

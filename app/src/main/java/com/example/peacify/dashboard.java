@@ -48,14 +48,14 @@ public class dashboard extends AppCompatActivity {
             }
         });
 
-//        mood.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(dashboard.this, Moodtracer.class);
-//                startActivity(intent);
-//            }
-//        });
-//
+        mood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(dashboard.this, Moodtracer.class);
+                startActivity(intent);
+            }
+        });
+
 //        checkPeople.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
