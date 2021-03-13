@@ -515,10 +515,10 @@
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
-        <EditText
+        <com.lb.auto_fit_textview.AutoResizeTextView
             android:id="@+id/description"
             android:layout_width="181dp"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:autofillHints="@string/describe_your_mood"
             android:hint="@string/describe_your_mood"
@@ -536,9 +536,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginStart="40dp"
-            android:layout_marginLeft="40dp"
             android:layout_marginTop="12dp"
-            android:layout_marginRight="36dp"
             android:contentDescription="@string/pain"
             android:src="@drawable/crying1"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -553,10 +551,8 @@
             android:id="@+id/saveBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="12dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
             android:text="@string/save"
             app:layout_constraintBottom_toBottomOf="@+id/description"
             app:layout_constraintEnd_toEndOf="parent"
@@ -579,13 +575,12 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:layout_marginEnd="150dp"
-            android:layout_marginRight="150dp"
             android:layout_marginBottom="8dp"
             android:text="@string/suggestions"
             android:visibility="invisible"
             app:layout_constraintBottom_toTopOf="@+id/tv"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+            app:layout_constraintTop_toBottomOf="@+id/description" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -15,6 +15,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.lb.auto_fit_textview.AutoResizeTextView;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -39,12 +40,12 @@ public class Moodtracer extends AppCompatActivity {
     FirebaseFirestore fStore;
     FirebaseAuth fAuth;
     String userID;
-    Editable desc;
+    CharSequence desc;
 
     Button save,btn;
     Button logout;
     ImageView mood;
-    EditText description;
+    AutoResizeTextView description;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +72,12 @@ public class Moodtracer extends AppCompatActivity {
         mood = findViewById(R.id.moodDisplay);
         description = findViewById(R.id.description);
         logout = findViewById(R.id.buttonx);
+
+        description.setEnabled(true);
+        description.setFocusableInTouchMode(true);
+        description.setFocusable(true);
+        description.setMovementMethod(null);
+        description.setMinTextSize(40f);
 
         happy.setOnClickListener(new View.OnClickListener() {
             @Override
