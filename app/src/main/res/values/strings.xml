@@ -1,8 +1,47 @@
 <resources>
-    <string name="app_name">Peacify</string>
-    <string name="p_e_a_c_i_f_y">P.E.A.C.I.F.Y</string>
-    <string name="we_are_there_for_you">we_are_there_for_you</string>
+
+
+    <string name="app_name">PEACIFY</string>
     <string name="register">Register</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="full_name">Full Name</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter">Enter</string>
+    <string name="give_me_a_quote">GIVE ME A QUOTE</string>
+    <string name="hey_beautiful">HEY BEAUTIFUL</string>
     <string name="login">Login</string>
-    <string name="hey_beautiful">hey_beautiful</string>
+    <string name="phone">Phone</string>
+    <string name="share_app">Share App</string>
+    <string name="check_others">Meditate</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="add_contacts">Add contacts</string>
+    <string name="quote_vibe">Quote Vibe</string>
+    <string name="mood_check">Mood Check</string>
+    <string name="start_a_new_day">Start a new day</string>
+    <string name="app">MENU</string>
+    <string name="how_do_you_feel_today">How Do you feel Today?</string>
+    <string name="happy">Happy</string>
+    <string name="normal">Normal</string>
+    <string name="crying">Crying</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="bored">Bored</string>
+    <string name="surprised">Surprised</string>
+    <string name="excited">Excited</string>
+    <string name="your_mood_records_till_now">Your mood records till now</string>
+    <string name="add_description">add description</string>
+    <string name="pain">pain</string>
+    <string name="sick">sick</string>
+    <string name="select_your_mood_from_emogis_and_describe_it_below">Select your mood from emogis and describe it below</string>
+    <string name="save">save</string>
+    <string name="describe_your_mood">Describe your mood!</string>
+    <string name="talk_to_a_friend">Talk to a friend</string>
+    <string name="contact_a_psychologist">Contact a psychologist</string>
+    <string name="if_you_need_assistance_the_choose_among_the_following_options">If you need assistance the choose among the following options</string>
+    <string name="logout">LOGOUT</string>
+    <string name="peace">peace</string>
+    <string name="connect">Connect</string>
+    <string name="mood_records">Mood Records</string>
 </resources>
