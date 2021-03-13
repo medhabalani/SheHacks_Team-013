@@ -47,6 +47,7 @@ public class Moodtracer extends AppCompatActivity {
     ImageView mood;
     AutoResizeTextView description;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

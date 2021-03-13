@@ -517,6 +517,7 @@
 
         <com.lb.auto_fit_textview.AutoResizeTextView
             android:id="@+id/description"
+            android:cursorVisible="true"
             android:layout_width="181dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
