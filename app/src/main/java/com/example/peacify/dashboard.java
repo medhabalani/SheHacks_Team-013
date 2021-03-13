@@ -80,13 +80,13 @@ public class dashboard extends AppCompatActivity {
 //            }
 //        });
 //
-//        contacts.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(dashboard.this, Connect.class);
-//                startActivity(intent);
-//            }
-//        });
+        contacts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(dashboard.this, Connect.class);
+                startActivity(intent);
+            }
+        });
 
 
         logout.setOnClickListener(new View.OnClickListener() {

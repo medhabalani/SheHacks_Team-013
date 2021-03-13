@@ -569,17 +569,18 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/description" />
+
         <Button
             android:id="@+id/suggestions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:layout_marginEnd="150dp"
             android:layout_marginBottom="8dp"
             android:text="@string/suggestions"
             android:visibility="invisible"
             app:layout_constraintBottom_toTopOf="@+id/tv"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/description" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
