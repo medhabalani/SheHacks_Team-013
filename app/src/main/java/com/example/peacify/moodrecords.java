@@ -60,7 +60,7 @@ public class moodrecords extends AppCompatActivity {
                     //model.time = (String) dataSnapshot.child("time").getValue();
                     model.description = xyz;
                     //model.description = dataSnapshot.child("description").getValue();
-                    Toast.makeText(moodrecords.this, "Description: "+xyz, Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(moodrecords.this, "Description: "+xyz, Toast.LENGTH_SHORT).show();
 
                     //Toast.makeText(moodrecords.this, "Description: "+dataSnapshot.child("description").getValue(), Toast.LENGTH_SHORT).show();
                     list.add(model);
