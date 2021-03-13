@@ -16,8 +16,8 @@ import android.view.animation.AnimationUtils;
 
 public class MainActivity extends AppCompatActivity {
 
-    View first, second, third, fourth, fifth, sixth;
-    TextView t, slogan;
+//    View first, second, third, fourth, fifth, sixth;
+//    TextView t, slogan;
     Animation topAnimation, bottomAnimation, middleAnimation;
     Button goAhead;
 
@@ -31,27 +31,9 @@ public class MainActivity extends AppCompatActivity {
         bottomAnimation = AnimationUtils.loadAnimation(this, R.anim.bottom_animation);
         middleAnimation = AnimationUtils.loadAnimation(this, R.anim.middle_animation);
 
-        first = findViewById(R.id.first_line);
-        second = findViewById(R.id.second_line);
-        third = findViewById(R.id.third_line);
-        fourth = findViewById(R.id.fourth_line);
-        fifth = findViewById(R.id.fifth_line);
-        sixth = findViewById(R.id.sixth_line);
 
-        t = findViewById(R.id.title);
-        slogan = findViewById(R.id.tag);
 
-        first.setAnimation(topAnimation);
-        second.setAnimation(topAnimation);
-        third.setAnimation(topAnimation);
-        fourth.setAnimation(topAnimation);
-        fifth.setAnimation(topAnimation);
-        sixth.setAnimation(topAnimation);
-
-        t.setAnimation(middleAnimation);
-        slogan.setAnimation(bottomAnimation);
-
-        int SPLASH_TIME_OUT = 5000;
+        int SPLASH_TIME_OUT = 1500;
         new Handler().postDelayed(new Runnable(){
             public void run(){
                 // check if the user is already logged in
