@@ -118,6 +118,12 @@ public class Moodtracer extends AppCompatActivity {
             public void onClick(View v) {
                 mood.setImageResource(R.drawable.bored);
                 btn.setVisibility(View.VISIBLE);
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(getApplicationContext(),boredsuggestions.class));
+                    }
+                });
             }
         });
 
@@ -126,6 +132,12 @@ public class Moodtracer extends AppCompatActivity {
             public void onClick(View v) {
                 mood.setImageResource(R.drawable.angry);
                 btn.setVisibility(View.VISIBLE);
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(getApplicationContext(),angrysuggestions.class));
+                    }
+                });
 
             }
         });
@@ -156,6 +168,12 @@ public class Moodtracer extends AppCompatActivity {
             public void onClick(View v) {
                 mood.setImageResource(R.drawable.sick);
                 btn.setVisibility(View.VISIBLE);
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(getApplicationContext(),sicksuggestions.class));
+                    }
+                });
             }
         });
 

@@ -19,6 +19,9 @@
             android:theme="@style/Theme.Peacify.NoActionBar" />
         <activity android:name=".Moodtracer" />
         <activity android:name=".sadcrysuggestions" />
+        <activity android:name=".boredsuggestions"/>
+        <activity android:name=".angrysuggestions"/>
+        <activity android:name=".sicksuggestions"/>
         <activity android:name=".quotepage" />
         <activity android:name=".dashboard" />
         <activity android:name=".login" />
