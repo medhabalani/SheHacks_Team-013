@@ -18,6 +18,7 @@
             android:label="@string/title_activity_meditate"
             android:theme="@style/Theme.Peacify.NoActionBar" />
         <activity android:name=".Moodtracer" />
+        <activity android:name=".sadcrysuggestions" />
         <activity android:name=".quotepage" />
         <activity android:name=".dashboard" />
         <activity android:name=".login" />

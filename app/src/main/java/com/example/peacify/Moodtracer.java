@@ -100,7 +100,7 @@ public class Moodtracer extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
+                        startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
                     }
                 });
             }
@@ -138,7 +138,7 @@ public class Moodtracer extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
+                        startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
                     }
                 });
             }
@@ -167,7 +167,7 @@ public class Moodtracer extends AppCompatActivity {
                 btn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        //startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
+                        startActivity(new Intent(getApplicationContext(),sadcrysuggestions.class));
                     }
                 });
 
