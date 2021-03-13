@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9CC4D6"
+    android:background="@drawable/appbackground"
     tools:context=".Connect">
 
 
@@ -45,9 +45,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.072" />
 
+
+
     <Button
         android:id="@+id/meditatebtn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
         android:layout_height="wrap_content"
         android:text="@string/talk_to_a_friend"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +61,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
         android:layout_height="wrap_content"
         android:text="@string/contact_a_psychologist"
         app:layout_constraintBottom_toBottomOf="parent"

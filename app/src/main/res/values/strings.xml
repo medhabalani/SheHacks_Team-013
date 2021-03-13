@@ -1,6 +1,5 @@
 <resources>
 
-
     <string name="app_name">PEACIFY</string>
     <string name="create_new_account">Create new account</string>
     <string name="full_name">Full Name</string>
@@ -34,17 +33,18 @@
     <string name="sick">sick</string>
     <string name="select_your_mood_from_emogis_and_describe_it_below">Select your mood from emojis and describe it below</string>
     <string name="save">save</string>
-    <string name="describe_your_mood">Describe your mood!</string>
+    <string name="describe_your_mood">How do you feel ?</string>
     <string name="talk_to_a_friend">Talk to a friend</string>
     <string name="contact_a_psychologist">Contact a psychologist</string>
     <string name="if_you_need_assistance_the_choose_among_the_following_options">If you need assistance then choose among the following options</string>
     <string name="logout">LOGOUT</string>
     <string name="peace">peace</string>
     <string name="connect">Connect</string>
-    <string name="mood_records">Mood Records</string>
+    <string name="mood_records">Journal</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="title_activity_meditate">meditate</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -56,4 +56,5 @@
     <string name="breathe_and_let_go">Breathe and let go !!</string>
     <string name="xyz">xyz</string>
     <string name="date_and_time">Date and Time :</string>
+
 </resources>

@@ -32,7 +32,7 @@
                 android:layout_height="80dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="128dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:src="@drawable/user" />
 
 
 
@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="TEXT1"
+                android:text="WELCOME TO PEACIFY"
                 android:textAlignment="center"
                 android:textSize="14sp"
                 android:gravity="center_horizontal" />

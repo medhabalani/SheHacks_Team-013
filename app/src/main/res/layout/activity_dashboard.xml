@@ -96,7 +96,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/emojis"
+                        android:src="@drawable/normal"
                         android:contentDescription="@string/mood_check" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -120,7 +120,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/pulse"
+                        android:src="@drawable/quote2"
                         android:contentDescription="@string/quote_vibe" />
 
                     <TextView
@@ -184,7 +184,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/plus3"
+                        android:src="@drawable/advice"
                         android:contentDescription="@string/add_contacts" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -208,7 +208,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/book2"
+                        android:src="@drawable/diary"
                         android:contentDescription="@string/mood_records" />
 
                     <TextView
@@ -271,7 +271,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        android:src="@drawable/images1"
+                        android:src="@drawable/calm"
                         android:contentDescription="@string/check_others" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
