@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.peacify">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Peacify">
-        <activity android:name=".login"></activity>
+        <activity android:name=".quotepage"/>
+        <activity android:name=".login" />
         <activity android:name=".Register" />
         <activity android:name=".login_register" />
         <activity android:name=".MainActivity">

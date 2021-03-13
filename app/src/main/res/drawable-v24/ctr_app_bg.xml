@@ -5,13 +5,5 @@
         android:startColor = "#abbaab"
         android:centerColor="#ffffff"
         android:angle= "360"/>
-<!--    <color name="palettepurple"> #E5B3ED</color>-->
-<!--    <color name="lightpink"> #f8a1d1</color>-->
-<!--    <color name="lightgreen"> #a4ebf3</color>-->
-<!--    <color name="wavygreen"> #c7ffd8</color>-->
-<!--    <color name="coolgreen"> #94ebcd</color>-->
-<!--    <color name="coolpalegreen"> #c7ffd8</color>-->
-<!--    <color name="darkpurple"> #7B1FA2</color>-->
-
 
 </shape>
