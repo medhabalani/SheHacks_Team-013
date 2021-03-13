@@ -17,7 +17,7 @@ public class dashboard extends AppCompatActivity {
     RelativeLayout quoteOfDay;
     RelativeLayout contacts;
     RelativeLayout suggestions;
-    RelativeLayout checkPeople;
+    RelativeLayout meditation;
     RelativeLayout share;
     Button logout;
 
@@ -35,7 +35,7 @@ public class dashboard extends AppCompatActivity {
         mood = findViewById(R.id.mood);
         contacts = findViewById(R.id.contacts);
         suggestions = findViewById(R.id.suggestion);
-        checkPeople = findViewById(R.id.checkPeople);
+        meditation = findViewById(R.id.meditation);
         share = findViewById(R.id.share);
         logout = findViewById(R.id.helpbtn);
 
@@ -52,6 +52,14 @@ public class dashboard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(dashboard.this, Moodtracer.class);
+                startActivity(intent);
+            }
+        });
+
+        meditation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(dashboard.this, meditate.class);
                 startActivity(intent);
             }
         });

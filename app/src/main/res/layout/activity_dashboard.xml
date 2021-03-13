@@ -244,7 +244,7 @@
                 app:cardCornerRadius="25dp">
 
                 <RelativeLayout
-                    android:id="@+id/checkPeople"
+                    android:id="@+id/meditation"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/ctr_bg">

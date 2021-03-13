@@ -11,6 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Peacify">
+        <activity
+            android:name=".meditate"
+            android:label="@string/title_activity_meditate"
+            android:theme="@style/Theme.Peacify.NoActionBar"></activity>
         <activity android:name=".Moodtracer" />
         <activity android:name=".quotepage" />
         <activity android:name=".dashboard" />
