@@ -1,29 +1,28 @@
 # SheHacks_Team-013 : PEACIFY 
 
-<!-- <div class="container-fluid">
-  <img class="mx-auto" src="APP_SS.jpeg">
-</div> -->
-
+<div class="container-fluid">
+  <img class="mx-auto" src="https://github.com/medhabalani/SheHacks_Team-013/blob/master/app/src/main/res/drawable/icon.png">
+</div> 
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
      <li>
-      <a href="#about-the-project">About PEACIFY</a>
+     About PEACIFY
     </li>
     <li>
-      <a href="#getting-started">Flowchart</a>
+     Flowchart
     </li>
-    <li><a href="#requirements">Requirements </a></li>
-    <li><a href="#installation-instructions"> Installation Instructions</a></li>
-    <li><a href="#inspiration">What was our inspiration for 'Peacify' ?</a></li>
-    <li><a href="#challenges">What Challenges did we run into?</a></li>
-    <li><a href="#more-features">If we had more time, what more features would we add to this project ?</a></li>
-    <li><a href="#accomplishments">What Accomplishments are we most proud of and what did we learn?</a></li>
-    <li><a href="#Tech-stack">Tech stack</a></li>
-    <li><a href="#team">Team</a></li>
-    <li><a href="#license">License</a></li>
+    <li>Requirements</li>
+    <li> Installation Instructions</li>
+    <li>>What was our inspiration for 'Peacify' ?</li>
+    <li>What Challenges did we run into?</li>
+    <li>If we had more time, what more features would we add to this project ?</li>
+    <li>What Accomplishments are we most proud of and what did we learn?</li>
+    <li>Tech stack</li>
+    <li>Team</li>
+    <li>License</li>
   </ol>
 </details>
 
@@ -53,7 +52,9 @@
 ## Demo for PEACIFY :loudspeaker: :loudspeaker:
 Ready Steady Go... :turtle: :rabbit2:
 <br>
+
 [CLICK HERE FOR DEMO](https://www.youtube.com/watch?v=Kj8oRTNniPU)
+[CLICK HERE FOR PPT](https://drive.google.com/file/d/14SyYgA1OqKnPjFbicKsjodgjyTWvYg3p/view)
 
 <!-- FLOWCHART -->
 ## FLOWCHART 
