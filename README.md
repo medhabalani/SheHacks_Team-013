@@ -16,7 +16,7 @@
     </li>
     <li>Requirements</li>
     <li> Installation Instructions</li>
-    <li>>What was our inspiration for 'Peacify' ?</li>
+    <li>What was our inspiration for 'Peacify' ?</li>
     <li>What Challenges did we run into?</li>
     <li>If we had more time, what more features would we add to this project ?</li>
     <li>What Accomplishments are we most proud of and what did we learn?</li>
@@ -54,6 +54,7 @@ Ready Steady Go... :turtle: :rabbit2:
 <br>
 
 [CLICK HERE FOR DEMO](https://www.youtube.com/watch?v=Kj8oRTNniPU)
+<br>
 [CLICK HERE FOR PPT](https://drive.google.com/file/d/14SyYgA1OqKnPjFbicKsjodgjyTWvYg3p/view)
 
 <!-- FLOWCHART -->
